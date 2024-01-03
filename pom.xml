@@ -136,12 +136,12 @@
   <build>    
     <plugins>
       <plugin>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-maven-plugin</artifactId>
+        <groupId>io.spring.javaformat</groupId>
+        <artifactId>spring-javaformat-maven-plugin</artifactId>
+        <version>${spring-format.version}</version>
         <configuration>
           <layout>LAYERED_JAR</layout>
         </configuration>
-        <version>${spring-format.version}</version>
         <executions>
           <execution>
             <phase>validate</phase>
