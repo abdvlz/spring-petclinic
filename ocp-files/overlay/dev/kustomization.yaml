@@ -8,5 +8,5 @@ nameSuffix: -dev
 configMapGenerator:
 - name: spring-petclinic
   env: ./dev-environment
-patches:
+patchesStrategicMerge:
 - change-cause.yaml
